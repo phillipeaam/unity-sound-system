@@ -1,0 +1,14 @@
+{
+  "name": "Phillipe2AM.SoundSystem",
+  "rootNamespace": "Phillipe2AM.SoundSystem",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

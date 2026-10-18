@@ -1,0 +1,22 @@
+{
+  "name": "com.phillipe2am.soundsystem",
+  "version": "1.0.0",
+  "displayName": "Sound System",
+  "description": "A small reusable Unity audio runtime with configurable mixer buses, persisted volume settings, and a bounded AudioSource pool.",
+  "unity": "2023.1",
+  "license": "MIT",
+  "author": {
+    "name": "Phillipe 2AM"
+  },
+  "dependencies": {
+    "com.unity.modules.audio": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Audio Setup",
+      "description": "A runnable scene demonstrating 2D and 3D playback, handles, per-play settings, bus volumes, and pool limits.",
+      "path": "Samples~/BasicAudioSetup",
+      "interactiveImport": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Phillipe2AM.SoundSystem.Samples.BasicAudioSetup",
+  "rootNamespace": "",
+  "references": [
+    "GUID:169a65d7bc5fe440f83d824b6d6d2a2f"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
