@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a reproducible problem with Sound System.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Report one problem per issue. For usage questions, check the package manual first.
+  - type: input
+    id: unity-version
+    attributes:
+      label: Unity version
+      description: Include the full Editor version, including its suffix when available.
+      placeholder: 6000.0.0f1
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Unity Editor
+        - Windows
+        - macOS
+        - Linux
+        - iOS
+        - Android
+        - WebGL
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to reproduce
+      description: List the smallest sequence of steps that reproduces the problem.
+      placeholder: |
+        1. Configure ...
+        2. Call ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description: What happened instead? Include relevant errors or logs.
+    validations:
+      required: true
