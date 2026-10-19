@@ -18,17 +18,23 @@ A reusable Unity audio runtime for mixer-routed playback, bounded source pooling
 In Unity, open **Window > Package Manager**, select **+ > Add package from Git URL**, and enter:
 
 ```text
-https://github.com/phillipeaam/unity-sound-system.git#main
+https://github.com/phillipeaam/unity-sound-system.git#v1.0.0
 ```
 
-For a stable project, pin a published release tag or commit hash instead of `main`. The same URL can be added to `Packages/manifest.json`:
+To follow the latest development changes instead, use `main`. It can change without a package release, so published projects should use a release tag or commit hash. The same stable URL can be added to `Packages/manifest.json`:
 
 ```json
 {
   "dependencies": {
-    "com.phillipe2am.soundsystem": "https://github.com/phillipeaam/unity-sound-system.git#main"
+    "com.phillipe2am.soundsystem": "https://github.com/phillipeaam/unity-sound-system.git#v1.0.0"
   }
 }
+```
+
+For development builds that intentionally track the moving branch, use:
+
+```text
+https://github.com/phillipeaam/unity-sound-system.git#main
 ```
 
 ## Get started
