@@ -15,27 +15,23 @@ A reusable Unity audio runtime for mixer-routed playback, bounded source pooling
 
 ## Install
 
-In Unity, open **Window > Package Manager**, select **+ > Add package from Git URL**, and enter:
+In Unity, open **Window > Package Manager**, select **+ > Add package from Git URL**, and enter the stable release URL:
 
 ```text
-https://github.com/phillipeaam/unity-sound-system.git#v1.0.0
+https://github.com/phillipeaam/unity-sound-system.git#v1.0.1
 ```
 
-To follow the latest development changes instead, use `main`. It can change without a package release, so published projects should use a release tag or commit hash. The same stable URL can be added to `Packages/manifest.json`:
+To follow the latest development changes instead, use the moving `#main` branch. Published projects should use a release tag or commit hash. Add the stable URL to `Packages/manifest.json` like this:
 
 ```json
 {
   "dependencies": {
-    "com.phillipe2am.soundsystem": "https://github.com/phillipeaam/unity-sound-system.git#v1.0.0"
+    "com.phillipe2am.soundsystem": "https://github.com/phillipeaam/unity-sound-system.git#v1.0.1"
   }
 }
 ```
 
-For development builds that intentionally track the moving branch, use:
-
-```text
-https://github.com/phillipeaam/unity-sound-system.git#main
-```
+You can also download the `.tgz` asset from the [v1.0.1 release](https://github.com/phillipeaam/unity-sound-system/releases/tag/v1.0.1) and install it in Package Manager with **+ > Install package from tarball**.
 
 ## Get started
 

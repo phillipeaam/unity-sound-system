@@ -9,6 +9,9 @@ namespace Samples.BasicAudioSetup
     /// <summary>
     /// Runtime setup and lifetime for the Sound System package's importable sample scene.
     /// </summary>
+    /// <remarks>
+    /// The matching script and component names let Unity resolve this behaviour in the imported scene.
+    /// </remarks>
     public sealed partial class BasicAudioSampleControls : MonoBehaviour
     {
         private static readonly string[] RolloffModeLabels = { "Logarithmic", "Linear" };
