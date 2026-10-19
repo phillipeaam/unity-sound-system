@@ -260,7 +260,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3199913d1e4c646c8baf67f2397fccac, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Phillipe2AM.SoundSystem.Samples.BasicAudioSetup::BasicAudioSampleControls
+  m_EditorClassIdentifier: Phillipe2AM.SoundSystem.Samples.BasicAudioSetup::Samples.BasicAudioSetup.BasicAudioSampleControls
   _musicBus: {fileID: 11400000, guid: 326bc1fa85e9246e9a9d3cd035ccf6dc, type: 2}
   _sfxBus: {fileID: 11400000, guid: 3cdd35f37f5c54060b19e98f30ba6d93, type: 2}
   _visualShader: {fileID: 4800000, guid: a0a59fe8c14df491eb8810600bb1be24, type: 3}

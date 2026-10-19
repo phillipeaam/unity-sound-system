@@ -1,6 +1,6 @@
 {
   "name": "com.phillipe2am.soundsystem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Sound System",
   "description": "A small reusable Unity audio runtime with configurable mixer buses, persisted volume settings, and a bounded AudioSource pool.",
   "unity": "2023.1",

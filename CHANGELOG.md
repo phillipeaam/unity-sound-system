@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-18
+
+### Fixed
+
+- Fixed the Basic Audio Setup scene's serialized class identifier so Unity resolves `BasicAudioSampleControls` when the sample is imported.
+
 ## [1.0.0] - 2026-10-18
 
 ### Added
