@@ -34,4 +34,12 @@ The package has one public facade and a few internal owners. Keep changes close 
 
 The test fixture stages its mixer Resources only while running/building tests. Ordinary Players must not contain the test mixers. Test-only classes and benchmark tools must never become package runtime dependencies.
 
+## Preparing a release
+
+1. Update `package.json`'s version and add the matching version entry to `CHANGELOG.md` in the same pull request.
+2. Check that the package version, changelog heading, Git tag, and GitHub release all use the same `MAJOR.MINOR.PATCH` version. Prefix Git tags with `v` (for example, `1.0.1` and `v1.0.1`).
+3. Keep the README's stable installation examples pinned to the latest published release tag. Label `main` as a moving development branch.
+4. Publish GitHub release notes that summarize user-visible changes and state the minimum Unity version, required modules, and any known platform limitations.
+5. Review the sample import and package validation before publishing the release.
+
 See [performance](performance.md) for measurement scope and pool sizing. The workbench keeps feature specifications, benchmark sources and raw-result summaries outside the distributable package.
